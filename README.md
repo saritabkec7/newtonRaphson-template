@@ -7,6 +7,6 @@ Write a python function with a call of `x = newtonRaphson(g, x0, eps, delta, ite
   <li> `eps`: The tolerance to use. Consider the method converged when the magnitude of the full step is less than this value. </li>
   <li> `delta`: Criteria for divergence. Consider the method as diverging when the magnitude of the full step is more than this value. If the method is diverging raise an exception with this exact error message: `Error: Maximum Number of Iterations`</li>
   <li> `itermax`: The maximum number of iterations. If the maximum number of iteration is exceeded raise an exception with this exact error message: `Error: Divergence` </li>
-<\ul>
+</ul>
 
 *NOTE:* This is an individual programming project.
