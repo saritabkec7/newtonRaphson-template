@@ -16,7 +16,7 @@ Write a python function with a call of `x = newtonRaphson(g, x0, eps, delta, ite
 - If your commit does not pass the autograder you will receive an email stating so.
 - To check status of the autograder perform the following steps in GitHub:
   1. Select `Actions`
-  2. Select `GitHub Classroom workflow`
+  2. Select `GitHub Classroom Workflow`
   3. Select the workflow you are interested in viewing
   4. Select `Autograding`
   5. Select `Run education/autograding@v1`
