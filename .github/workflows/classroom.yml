@@ -1,0 +1,24 @@
+name: GitHub Classroom Workflow
+
+on: [push]
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  build:
+    name: Autograding
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create cleanup script
+        run: echo "rm -rf $PWD" > /cleanup.sh
+      - name: Clone unit test repo
+        run: git clone https://github.com/UB-EAS501/unitTests.git
+      - name: Copy unit tests
+        run: cp -rf ./unitTests/* ./               
+      - name: Check python version
+        run: python3 --version
+      - uses: education/autograding@v1  
