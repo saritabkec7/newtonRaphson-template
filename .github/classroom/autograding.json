@@ -6,7 +6,7 @@
       "input": "",
       "output": "Function has passed all unit tests.",
       "comparison": "exact",
-      "timeout": 1,
+      "timeout": 0.5,
       "points": 2
     }
   ]
