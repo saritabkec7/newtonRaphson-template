@@ -15,7 +15,7 @@ The outputs are:
 
 # Information regarding unit tests and autograding
 
-- You can test your code by running `python newtonRaphson_unit.py` in the same directory as your `newtonRaphson.py` file.
+- You can test your code by running `python newtonRaphson_unit.pyo` in the same directory as your `newtonRaphson.py` file. You _must_ use python version 3.8 to run the unit test locally.
 - The autograder will use a unit test that is obtained externally. 
 - If your commit does not pass the autograder you will receive an email stating so.
 - To check status of the autograder perform the following steps in GitHub:
